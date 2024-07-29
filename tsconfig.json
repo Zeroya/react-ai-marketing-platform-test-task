@@ -1,5 +1,8 @@
 {
   "files": [],
+  "compilerOptions": {
+    "strictPropertyInitialization": false,
+},
   "references": [
     {
       "path": "./tsconfig.app.json"
