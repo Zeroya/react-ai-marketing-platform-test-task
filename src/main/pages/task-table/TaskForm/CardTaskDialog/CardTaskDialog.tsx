@@ -49,7 +49,7 @@ const CardTaskDialog: React.FC<{open: boolean; onClose: () => void; taskId: numb
     name: 'image_layers'
   });
 
-  const onSubmit = (data: ImageGenerationRequest) => {};
+  const onSubmit = () => {};
 
   const [snackbar, setSnackbar] = useState({
     open: false,

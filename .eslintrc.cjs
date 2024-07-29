@@ -129,6 +129,7 @@ module.exports = {
     'prettier/prettier': 'off',
     'react/prop-types': 'off',
     '@typescript-eslint/strict-boolean-expressions': 'off',
-    '@typescript-eslint/no-non-null-assertion': 'off'
+    '@typescript-eslint/no-non-null-assertion': 'off',
+    'react-hooks/exhaustive-deps': 'off'
   }
 };

@@ -37,7 +37,7 @@ const MultipleSelectInput: FC<Props> = (props) => {
             return option.label;
           }}
           isOptionEqualToValue={(option, value) => option.value === value.value}
-          onChange={(event, values) => {
+          onChange={(_, values) => {
             props.onChange(values.map((value) => value.value));
             onChange(values.map((value) => value.value));
           }}
