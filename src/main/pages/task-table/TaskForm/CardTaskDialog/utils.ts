@@ -1,7 +1,6 @@
 import * as yup from 'yup';
 import {DimensionEnum} from '../../../../../enums/dimension.enum';
 import {StyleTaskEnum} from '../../../../../enums/style-task.enum';
-import {FlowEnum} from '../../../../../enums/flow.enum';
 
 export const schema = yup.object().shape({
   task_name: yup.string().required('Task name is required'),
